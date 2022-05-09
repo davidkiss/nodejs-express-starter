@@ -1,0 +1,29 @@
+info:
+  name: Web SaaS Starter Kit - Node.js, Express
+  description: Boilerplate for a web app with common features that every SaaS(Software as a Service) needs.
+  tags:
+  - nodejs
+  - express
+  - javascript
+  - morgan
+  - supertokens
+  - SaaS
+params:
+  siteName:
+    type: text
+    description: Enter site name
+    defaultValue: SuperTokensExpress
+    required: true
+  siteTitle:
+    type: text
+    description: Enter site title
+    defaultValue: Web SaaS Starter Kit
+    required: true
+  siteDomain:
+    type: text
+    description: Enter domain url for production
+    defaultValue: https://sp6wzm.sse.codesandbox.io
+    required: true
+files:
+  development.env:
+    condition: false

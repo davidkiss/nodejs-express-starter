@@ -1,6 +1,6 @@
 supertokens.init({
   apiDomain:
-    "https://sp6wzm.sse.codesandbox.io" /**Change it to your website domain where this project is deployed */,
+    "{{siteDomain}}" /**Change it to your website domain where this project is deployed */,
   apiBasePath: "/api",
   onHandleEvent: (context) => {
     console.log("SuperTokens event received");

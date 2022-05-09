@@ -35,7 +35,7 @@ supertokens.init({
   },
   appInfo: {
     // learn more about this on https://supertokens.com/docs/session/appinfo
-    appName: "SuperTokensExpress",
+    appName: "{{siteName}}",
     apiDomain: process.env.SITE_DOMAIN_URL,
     websiteDomain: process.env.SITE_DOMAIN_URL,
     apiBasePath: "/api",
