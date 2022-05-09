@@ -25,5 +25,5 @@ params:
     defaultValue: https://sp6wzm.sse.codesandbox.io
     required: true
 files:
-  development.env:
+  "development.env":
     condition: false
